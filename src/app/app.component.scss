@@ -1,0 +1,10 @@
+div {
+    background-color: #cacaca;
+    border: 1px solid #fff;
+}
+
+@media screen and (max-width: 640px) {
+    .ui-g-2 {
+        display: none;
+    }
+}

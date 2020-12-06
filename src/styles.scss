@@ -1,1 +1,16 @@
 /* You can add global styles to this file, and also import other style files */
+
+.ui-galleria,
+ul.ui-galleria-panel-wrapper,
+li.ui-galleria-panel {
+    margin: 0 auto !important;
+    
+    
+    @media screen and (max-width: 760px) {
+        width: inherit !important;
+    }
+}
+
+h1 {
+    text-align: center;
+}
